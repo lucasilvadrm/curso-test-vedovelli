@@ -1,4 +1,4 @@
-const { queryString, parse } = require('./queryString');
+import { queryString, parse } from './queryString';
 
 describe('Name of the group', () => {
   it('deve validar uma queryString vinda de um objeto ', () => {
